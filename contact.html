@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body text="white">
+	<form action="mailto:iammarco@live.nl" method="post">
+		<table>
+			<tr>
+				<td>
+					<label>Name:</label>
+				</td>
+				<td>
+					<input placeholder="Name" type="text" name="naam" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Last Name:</label>
+				</td>
+				<td>
+					<input placeholder="Last Name" type="text" name="achternaam" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Phonenumber:</label>
+				</td>
+				<td>
+					<input placeholder="Phonenumber" type="tel" name="telefoon" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Email:</label>
+				</td>
+				<td>
+					<input placeholder="Email" type="email" name="email" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Birthday:</label>
+				</td>
+				<td>
+					<input type="date" name="geboortedatum" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Geslacht:</label>
+				</td>
+				<td>
+					<input type="radio" name="geslacht" value="male" required>
+					<label>Male</label>
+					<input type="radio" name="geslacht" value="female" required>
+					<label>Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+				<textarea name="bericht" placeholder="Your message please!" rows="10" cols="50"></textarea>
+				</td>
+			<tr>
+				<td>
+					<input type="submit" name="verzend">
+					<input type="reset" name="reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
